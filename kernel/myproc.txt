@@ -1,0 +1,128 @@
+console.c:92:      if(killed(myproc())){
+console.o 바이너리 파일 일치함
+defs.h:97:struct proc*    myproc();
+exec.c:32:  struct proc *p = myproc();
+exec.c:75:  p = myproc();
+exec.o 바이너리 파일 일치함
+file.c:90:  struct proc *p = myproc();
+file.o 바이너리 파일 일치함
+fs.c:659:    ip = idup(myproc()->cwd);
+fs.o 바이너리 파일 일치함
+kernel 바이너리 파일 일치함
+kernel.asm:270:      if(killed(myproc())){
+kernel.asm:283:      if(killed(myproc())){
+kernel.asm:285:    800001b8:	7e2080e7          	jalr	2018(ra) # 80001996 <myproc>
+kernel.asm:3660:0000000080001996 <myproc>:
+kernel.asm:3664:myproc(void)
+kernel.asm:3709:  release(&myproc()->lock);
+kernel.asm:3711:    800019da:	fc0080e7          	jalr	-64(ra) # 80001996 <myproc>
+kernel.asm:4097:  struct proc *p = myproc();
+kernel.asm:4099:    80001d02:	c98080e7          	jalr	-872(ra) # 80001996 <myproc>
+kernel.asm:4148:  struct proc *p = myproc();
+kernel.asm:4150:    80001d62:	c38080e7          	jalr	-968(ra) # 80001996 <myproc>
+kernel.asm:4351:  struct proc *p = myproc();
+kernel.asm:4353:    80001f3e:	a5c080e7          	jalr	-1444(ra) # 80001996 <myproc>
+kernel.asm:4441:  struct proc *p = myproc();
+kernel.asm:4443:    80002010:	98a080e7          	jalr	-1654(ra) # 80001996 <myproc>
+kernel.asm:4481:  struct proc *p = myproc();
+kernel.asm:4483:    80002054:	946080e7          	jalr	-1722(ra) # 80001996 <myproc>
+kernel.asm:4553:    if(p != myproc()){
+kernel.asm:4571:    if(p != myproc()){
+kernel.asm:4573:    800020e2:	8b8080e7          	jalr	-1864(ra) # 80001996 <myproc>
+kernel.asm:4654:  struct proc *p = myproc();
+kernel.asm:4656:    80002188:	812080e7          	jalr	-2030(ra) # 80001996 <myproc>
+kernel.asm:4876:  struct proc *p = myproc();
+kernel.asm:4878:    80002336:	664080e7          	jalr	1636(ra) # 80001996 <myproc>
+kernel.asm:5013:  struct proc *p = myproc();
+kernel.asm:5015:    80002462:	538080e7          	jalr	1336(ra) # 80001996 <myproc>
+kernel.asm:5067:  struct proc *p = myproc();
+kernel.asm:5069:    800024b8:	4e2080e7          	jalr	1250(ra) # 80001996 <myproc>
+kernel.asm:5281:  struct proc *p = myproc();
+kernel.asm:5283:    80002658:	342080e7          	jalr	834(ra) # 80001996 <myproc>
+kernel.asm:5528:  struct proc *p = myproc();
+kernel.asm:5530:    800027f4:	1a6080e7          	jalr	422(ra) # 80001996 <myproc>
+kernel.asm:5659:  if(which_dev == 2 && myproc() != 0 && myproc()->state == RUNNING)
+kernel.asm:5704:  if(which_dev == 2 && myproc() != 0 && myproc()->state == RUNNING)
+kernel.asm:5706:    8000298a:	010080e7          	jalr	16(ra) # 80001996 <myproc>
+kernel.asm:5709:    80002994:	006080e7          	jalr	6(ra) # 80001996 <myproc>
+kernel.asm:5731:  struct proc *p = myproc();
+kernel.asm:5733:    800029ba:	fe0080e7          	jalr	-32(ra) # 80001996 <myproc>
+kernel.asm:5795:  struct proc *p = myproc();
+kernel.asm:5797:    80002a26:	f74080e7          	jalr	-140(ra) # 80001996 <myproc>
+kernel.asm:5837:  struct proc *p = myproc();
+kernel.asm:5839:    80002a7c:	f1e080e7          	jalr	-226(ra) # 80001996 <myproc>
+kernel.asm:5959:  struct proc *p = myproc();
+kernel.asm:5961:    80002b38:	e62080e7          	jalr	-414(ra) # 80001996 <myproc>
+kernel.asm:6044:  return myproc()->pid;
+kernel.asm:6046:    80002bcc:	dce080e7          	jalr	-562(ra) # 80001996 <myproc>
+kernel.asm:6115:  addr = myproc()->sz;
+kernel.asm:6117:    80002c38:	d62080e7          	jalr	-670(ra) # 80001996 <myproc>
+kernel.asm:6168:    if(killed(myproc())){
+kernel.asm:6177:    if(killed(myproc())){
+kernel.asm:6179:    80002cac:	cee080e7          	jalr	-786(ra) # 80001996 <myproc>
+kernel.asm:8105:    ip = idup(myproc()->cwd);
+kernel.asm:8107:    80003be4:	db6080e7          	jalr	-586(ra) # 80001996 <myproc>
+kernel.asm:8997:  lk->pid = myproc()->pid;
+kernel.asm:8999:    800042ee:	6ac080e7          	jalr	1708(ra) # 80001996 <myproc>
+kernel.asm:9071:  r = lk->locked && (lk->pid == myproc()->pid);
+kernel.asm:9089:  r = lk->locked && (lk->pid == myproc()->pid);
+kernel.asm:9092:    80004396:	604080e7          	jalr	1540(ra) # 80001996 <myproc>
+kernel.asm:9336:  struct proc *p = myproc();
+kernel.asm:9338:    80004568:	432080e7          	jalr	1074(ra) # 80001996 <myproc>
+kernel.asm:9866:  struct proc *pr = myproc();
+kernel.asm:9868:    80004922:	078080e7          	jalr	120(ra) # 80001996 <myproc>
+kernel.asm:9990:  struct proc *pr = myproc();
+kernel.asm:9992:    80004a16:	f84080e7          	jalr	-124(ra) # 80001996 <myproc>
+kernel.asm:10147:  struct proc *p = myproc();
+kernel.asm:10149:    80004b32:	e68080e7          	jalr	-408(ra) # 80001996 <myproc>
+kernel.asm:10354:  p = myproc();
+kernel.asm:10356:    80004cfe:	c9c080e7          	jalr	-868(ra) # 80001996 <myproc>
+kernel.asm:10557:  if(fd < 0 || fd >= NOFILE || (f=myproc()->ofile[fd]) == 0)
+kernel.asm:10562:    80004ed0:	aca080e7          	jalr	-1334(ra) # 80001996 <myproc>
+kernel.asm:10609:  struct proc *p = myproc();
+kernel.asm:10611:    80004f16:	a84080e7          	jalr	-1404(ra) # 80001996 <myproc>
+kernel.asm:10961:  myproc()->ofile[fd] = 0;
+kernel.asm:10963:    800051f0:	7aa080e7          	jalr	1962(ra) # 80001996 <myproc>
+kernel.asm:11672:  struct proc *p = myproc();
+kernel.asm:11674:    80005802:	198080e7          	jalr	408(ra) # 80001996 <myproc>
+kernel.asm:11897:  struct proc *p = myproc();
+kernel.asm:11899:    800059b0:	fea080e7          	jalr	-22(ra) # 80001996 <myproc>
+kernel.sym:142:0000000080001996 myproc
+pipe.c:80:  struct proc *pr = myproc();
+pipe.c:109:  struct proc *pr = myproc();
+pipe.o 바이너리 파일 일치함
+proc.c:83:myproc(void)
+proc.c:263:  struct proc *p = myproc();
+proc.c:284:  struct proc *p = myproc();
+proc.c:349:  struct proc *p = myproc();
+proc.c:395:  struct proc *p = myproc();
+proc.c:485:  struct proc *p = myproc();
+proc.c:505:  struct proc *p = myproc();
+proc.c:520:  release(&myproc()->lock);
+proc.c:538:  struct proc *p = myproc();
+proc.c:572:    if(p != myproc()){
+proc.c:631:  struct proc *p = myproc();
+proc.c:646:  struct proc *p = myproc();
+proc.o 바이너리 파일 일치함
+sleeplock.c:29:  lk->pid = myproc()->pid;
+sleeplock.c:49:  r = lk->locked && (lk->pid == myproc()->pid);
+sleeplock.o 바이너리 파일 일치함
+syscall.c:14:  struct proc *p = myproc();
+syscall.c:27:  struct proc *p = myproc();
+syscall.c:36:  struct proc *p = myproc();
+syscall.c:137:  struct proc *p = myproc();
+syscall.o 바이너리 파일 일치함
+sysfile.c:28:  if(fd < 0 || fd >= NOFILE || (f=myproc()->ofile[fd]) == 0)
+sysfile.c:43:  struct proc *p = myproc();
+sysfile.c:105:  myproc()->ofile[fd] = 0;
+sysfile.c:414:  struct proc *p = myproc();
+sysfile.c:483:  struct proc *p = myproc();
+sysfile.o 바이너리 파일 일치함
+sysproc.c:21:  return myproc()->pid;
+sysproc.c:45:  addr = myproc()->sz;
+sysproc.c:61:    if(killed(myproc())){
+sysproc.o 바이너리 파일 일치함
+trap.c:48:  struct proc *p = myproc();
+trap.c:92:  struct proc *p = myproc();
+trap.c:154:  if(which_dev == 2 && myproc() != 0 && myproc()->state == RUNNING)
+trap.o 바이너리 파일 일치함

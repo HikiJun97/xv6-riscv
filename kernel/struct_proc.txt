@@ -1,0 +1,131 @@
+defs.h:6:struct proc;
+defs.h:90:pagetable_t     proc_pagetable(struct proc *);
+defs.h:93:int             killed(struct proc*);
+defs.h:94:void            setkilled(struct proc*);
+defs.h:97:struct proc*    myproc();
+exec.c:32:  struct proc *p = myproc();
+file.c:90:  struct proc *p = myproc();
+kernel.asm:3476:  struct proc *p;
+kernel.asm:3551:  struct proc *p;
+kernel.asm:3662:// Return the current struct proc *, or zero if none.
+kernel.asm:3663:struct proc*
+kernel.asm:3676:  struct proc *p = c->proc;
+kernel.asm:4097:  struct proc *p = myproc();
+kernel.asm:4148:  struct proc *p = myproc();
+kernel.asm:4351:  struct proc *p = myproc();
+kernel.asm:4441:  struct proc *p = myproc();
+kernel.asm:4481:  struct proc *p = myproc();
+kernel.asm:4548:  struct proc *p;
+kernel.asm:4654:  struct proc *p = myproc();
+kernel.asm:4744:  struct proc *p;
+kernel.asm:4803:setkilled(struct proc *p)
+kernel.asm:4831:killed(struct proc *p)
+kernel.asm:4876:  struct proc *p = myproc();
+kernel.asm:5013:  struct proc *p = myproc();
+kernel.asm:5067:  struct proc *p = myproc();
+kernel.asm:5122:  struct proc *p;
+kernel.asm:5281:  struct proc *p = myproc();
+kernel.asm:5528:  struct proc *p = myproc();
+kernel.asm:5731:  struct proc *p = myproc();
+kernel.asm:5795:  struct proc *p = myproc();
+kernel.asm:5837:  struct proc *p = myproc();
+kernel.asm:5959:  struct proc *p = myproc();
+kernel.asm:9336:  struct proc *p = myproc();
+kernel.asm:9866:  struct proc *pr = myproc();
+kernel.asm:9990:  struct proc *pr = myproc();
+kernel.asm:10147:  struct proc *p = myproc();
+kernel.asm:10609:  struct proc *p = myproc();
+kernel.asm:11672:  struct proc *p = myproc();
+kernel.asm:11897:  struct proc *p = myproc();
+myproc.txt:3:defs.h:97:struct proc*    myproc();
+myproc.txt:4:exec.c:32:  struct proc *p = myproc();
+myproc.txt:7:file.c:90:  struct proc *p = myproc();
+myproc.txt:19:kernel.asm:4097:  struct proc *p = myproc();
+myproc.txt:21:kernel.asm:4148:  struct proc *p = myproc();
+myproc.txt:23:kernel.asm:4351:  struct proc *p = myproc();
+myproc.txt:25:kernel.asm:4441:  struct proc *p = myproc();
+myproc.txt:27:kernel.asm:4481:  struct proc *p = myproc();
+myproc.txt:32:kernel.asm:4654:  struct proc *p = myproc();
+myproc.txt:34:kernel.asm:4876:  struct proc *p = myproc();
+myproc.txt:36:kernel.asm:5013:  struct proc *p = myproc();
+myproc.txt:38:kernel.asm:5067:  struct proc *p = myproc();
+myproc.txt:40:kernel.asm:5281:  struct proc *p = myproc();
+myproc.txt:42:kernel.asm:5528:  struct proc *p = myproc();
+myproc.txt:48:kernel.asm:5731:  struct proc *p = myproc();
+myproc.txt:50:kernel.asm:5795:  struct proc *p = myproc();
+myproc.txt:52:kernel.asm:5837:  struct proc *p = myproc();
+myproc.txt:54:kernel.asm:5959:  struct proc *p = myproc();
+myproc.txt:70:kernel.asm:9336:  struct proc *p = myproc();
+myproc.txt:72:kernel.asm:9866:  struct proc *pr = myproc();
+myproc.txt:74:kernel.asm:9990:  struct proc *pr = myproc();
+myproc.txt:76:kernel.asm:10147:  struct proc *p = myproc();
+myproc.txt:82:kernel.asm:10609:  struct proc *p = myproc();
+myproc.txt:86:kernel.asm:11672:  struct proc *p = myproc();
+myproc.txt:88:kernel.asm:11897:  struct proc *p = myproc();
+myproc.txt:91:pipe.c:80:  struct proc *pr = myproc();
+myproc.txt:92:pipe.c:109:  struct proc *pr = myproc();
+myproc.txt:95:proc.c:263:  struct proc *p = myproc();
+myproc.txt:96:proc.c:284:  struct proc *p = myproc();
+myproc.txt:97:proc.c:349:  struct proc *p = myproc();
+myproc.txt:98:proc.c:395:  struct proc *p = myproc();
+myproc.txt:99:proc.c:485:  struct proc *p = myproc();
+myproc.txt:100:proc.c:505:  struct proc *p = myproc();
+myproc.txt:102:proc.c:538:  struct proc *p = myproc();
+myproc.txt:104:proc.c:631:  struct proc *p = myproc();
+myproc.txt:105:proc.c:646:  struct proc *p = myproc();
+myproc.txt:110:syscall.c:14:  struct proc *p = myproc();
+myproc.txt:111:syscall.c:27:  struct proc *p = myproc();
+myproc.txt:112:syscall.c:36:  struct proc *p = myproc();
+myproc.txt:113:syscall.c:137:  struct proc *p = myproc();
+myproc.txt:116:sysfile.c:43:  struct proc *p = myproc();
+myproc.txt:118:sysfile.c:414:  struct proc *p = myproc();
+myproc.txt:119:sysfile.c:483:  struct proc *p = myproc();
+myproc.txt:125:trap.c:48:  struct proc *p = myproc();
+myproc.txt:126:trap.c:92:  struct proc *p = myproc();
+pipe.c:80:  struct proc *pr = myproc();
+pipe.c:109:  struct proc *pr = myproc();
+proc.c:11:struct proc proc[NPROC];
+proc.c:13:struct proc *initproc;
+proc.c:19:static void freeproc(struct proc *p);
+proc.c:35:  struct proc *p;
+proc.c:50:  struct proc *p;
+proc.c:81:// Return the current struct proc *, or zero if none.
+proc.c:82:struct proc*
+proc.c:87:  struct proc *p = c->proc;
+proc.c:109:static struct proc*
+proc.c:112:  struct proc *p;
+proc.c:156:freeproc(struct proc *p)
+proc.c:177:proc_pagetable(struct proc *p)
+proc.c:235:  struct proc *p;
+proc.c:263:  struct proc *p = myproc();
+proc.c:283:  struct proc *np;
+proc.c:284:  struct proc *p = myproc();
+proc.c:331:reparent(struct proc *p)
+proc.c:333:  struct proc *pp;
+proc.c:349:  struct proc *p = myproc();
+proc.c:393:  struct proc *pp;
+proc.c:395:  struct proc *p = myproc();
+proc.c:447:  struct proc *p;
+proc.c:485:  struct proc *p = myproc();
+proc.c:505:  struct proc *p = myproc();
+proc.c:538:  struct proc *p = myproc();
+proc.c:569:  struct proc *p;
+proc.c:588:  struct proc *p;
+proc.c:607:setkilled(struct proc *p)
+proc.c:615:killed(struct proc *p)
+proc.c:631:  struct proc *p = myproc();
+proc.c:646:  struct proc *p = myproc();
+proc.c:669:  struct proc *p;
+proc.h:23:  struct proc *proc;          // The process running on this cpu, or null.
+proc.h:85:struct proc {
+proc.h:96:  struct proc *parent;         // Parent process
+proc.h:109:extern struct proc proc[NPROC];
+syscall.c:14:  struct proc *p = myproc();
+syscall.c:27:  struct proc *p = myproc();
+syscall.c:36:  struct proc *p = myproc();
+syscall.c:137:  struct proc *p = myproc();
+sysfile.c:43:  struct proc *p = myproc();
+sysfile.c:414:  struct proc *p = myproc();
+sysfile.c:483:  struct proc *p = myproc();
+trap.c:48:  struct proc *p = myproc();
+trap.c:92:  struct proc *p = myproc();
